@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Aku</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      #intro {
+        animation: fadeOutZoom 2.5s ease-in-out forwards;
+      }
+
+      @keyframes fadeOutZoom {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1.5);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+
+    <!-- Intro Animation -->
+    <div id="intro" class="fixed top-0 left-0 w-full h-full bg-black flex items-center justify-center z-50">
+      <h1 class="text-6xl text-white font-extrabold tracking-widest animate-pulse">PROFILO AQMAR</h1>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-700 to-indigo-900 p-6 shadow-lg">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold tracking-wide">Portfolio Aku</h1>
+        <nav>
+          <ul class="flex gap-6 text-lg">
+            <li><a href="#projek" class="hover:text-purple-300">Projek</a></li>
+            <li><a href="#tentang" class="hover:text-purple-300">Tentang</a></li>
+            <li><a href="#hubungi" class="hover:text-purple-300">Hubungi</a></li>
+            <li><a href="#resume" class="hover:text-purple-300">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-24 px-4">
+      <img src="images/pc2_engineering.jpg" alt="Gambar Profil" class="mx-auto mb-6 rounded-full w-40 h-40 object-cover border-4 border-purple-600 shadow-lg">
+      <h2 class="text-5xl font-extrabold mb-4">Hai! Saya MOHAMAD AQMAR HARITH BIN KAMAROLZAMAN</h2>
+      <p class="text-xl text-gray-300 mb-6">Seorang yang berani bercakap di khalayak ramai, dan juga mudah bergaul✨</p>
+      <a href="#projek" class="bg-purple-600 hover:bg-purple-800 text-white px-6 py-3 rounded-full text-lg shadow-md transition-all">Lihat Projek</a>
+    </section>
+
+    <!-- Projek -->
+    <section id="projek" class="max-w-6xl mx-auto py-20 px-6">
+      <h3 class="text-4xl font-bold mb-12 text-center">Projek Pilihan</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Card Projek A -->
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform">
+          <img src="images/Screenshot 2025-04-16 095343.png" alt="MESIN PUNARAN SEMI AUTOMATIK." class="rounded-lg mb-4">
+          <h4 class="text-2xl font-semibold mb-2">MESIN PUNARAN SEMI AUTOMATIK.</h4>
+          <p class="text-gray-400 mb-4">Projek ini adalah semasa saya Diploma vokasional Malaysia PROJEK TAHUN AKHIR 1 (PTA1)</p>
+          <a href="https://youtu.be/1TH91X0jcbI?si=RZ1whkLe_JR3Ykb1" target="_blank" class="text-purple-400 hover:underline">Lihat Projek →</a>
+        </div>
+
+        <!-- Card Projek B -->
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform">
+          <img src="images/Screenshot 2025-04-16 022122.png" alt="REAL-TIME SENSOR DATA COLLECTION WITH ESP32 AND GOOGLE SHEETS INTEGRATION" class="rounded-lg mb-4">
+          <h4 class="text-2xl font-semibold mb-2">REAL-TIME SENSOR DATA COLLECTION WITH ESP32 AND GOOGLE SHEETS INTEGRATION</h4>
+          <p class="text-gray-400 mb-4">Mengambil data dari sensor cahaya dan membangukan apss untuk menganalisi datat tersebut dengan mudah... ini adalah Laporan projek saya</p>
+          <a href="https://umpedumy-my.sharepoint.com/:w:/g/personal/vc23052_adab_umpsa_edu_my/EV7vLH1Ke2RPpLkQ35LBH5cBLpIBru82Scyd22TI5CLYRw?e=2YdRNZ" target="_blank" class="text-purple-400 hover:underline">Lihat Projek →</a>
+        </div>
+
+        <!-- Card Projek C -->
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform">
+          <img src="images/Screenshot 2025-04-16 021720.png" alt="PROJECT Technology Skill and Development in Electronic Automation II" class="rounded-lg mb-4">
+          <h4 class="text-2xl font-semibold mb-2">PROJECT Technology Skill and Development in Electronic Automation II</h4>
+          <p class="text-gray-400 mb-4">Menghasilkan project get Logic</p>
+          <a href="https://umpedumy-my.sharepoint.com/:w:/g/personal/vc23052_adab_umpsa_edu_my/Ef0rJ4v3d8JAv8J4DVoMagoBLHigkkbT-bBRhfxn35iyxA?e=FnhnzT" target="_blank" class="text-purple-400 hover:underline">Lihat Projek →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="tentang" class="bg-gray-800 py-20 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-4xl font-bold mb-6">Tentang Saya</h3>
+        <p class="text-gray-300 text-lg leading-relaxed">
+          Saya pelajar UNIVERSITI MALAYSIA PAHANG AL-SULTAN ABDULLAH. Saya merupakan Sekretariat Anak Johor Darul Takzim @ Iskandar dengan jawatan EXCO KEBUDAYAAN.
+          Saya juga mempunyai segulung Diploma Teknologi Elektronik di Kolej Vokasional Batu Pahat dan memiliki Sijil Kemahiran Malaysia (SKM) Tahap 3.
+        </p>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="bg-gray-900 py-20 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-4xl font-bold mb-6">Lihat Resume Saya</h3>
+        <a href="https://www.canva.com/design/DAFW_tdyEtg/T4GhWIvpvzV_K_n4pezFqg/edit?utm_content=DAFW_tdyEtg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="text-purple-400 hover:underline text-lg">Klik untuk lihat resume →</a>
+      </div>
+    </section>
+
+    <!-- Hubungi -->
+    <section id="hubungi" class="py-20 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h3 class="text-4xl font-bold mb-6">Hubungi Saya</h3>
+        <p class="text-gray-400 mb-4">Berminat untuk bekerjasama atau ada soalan?</p>
+        <div class="flex flex-col gap-4 items-center">
+          <a href="mailto:aqmarh6@gmail.com" class="bg-purple-600 hover:bg-purple-800 text-white px-6 py-3 rounded-full shadow-md transition-all">Hantar E-mel kepada aqmarh6@gmail.com</a>
+          <a href="https://wa.me/0162477908" target="_blank" class="text-purple-400 hover:underline">Hubungi melalui WhatsApp →</a>
+          <a href="https://www.instagram.com/p/DG0mitFvacF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="text-purple-400 hover:underline">Lihat jawatan saya di UMPSA →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gray-900 text-gray-500">
+      &copy; 2025 Portfolio Aku. Dibina dengan ❤️ dan semangat kreatif.
+    </footer>
+
+    <script>
+      // Hilangkan intro selepas animasi tamat
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("intro").style.display = "none";
+        }, 2500);
+      });
+    </script>
+
+  </body>
+</html>
